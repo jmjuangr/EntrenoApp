@@ -12,7 +12,7 @@ RUN dotnet publish EntrenosApp.API/EntrenosApp.API.csproj -c Release -o /app/pub
 
 # Etapa de runtime con SDK (para poder ejecutar dotnet ef)
 FROM mcr.microsoft.com/dotnet/sdk:8.0
-WORKDIR /appç
+WORKDIR /app
 # Instalar dotnet-ef para aplicar migraciones en tiempo de ejecución
 RUN dotnet tool install --global dotnet-ef && \
     export PATH="$PATH:/root/.dotnet/tools"
