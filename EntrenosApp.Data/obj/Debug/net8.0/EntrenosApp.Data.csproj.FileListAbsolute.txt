@@ -1,0 +1,17 @@
+C:\Users\Jose M\Documents\DAW\SAN VALERO\Prática presencial 2\EntrenosApp.Data\bin\Debug\net8.0\EntrenosApp.Data.deps.json
+C:\Users\Jose M\Documents\DAW\SAN VALERO\Prática presencial 2\EntrenosApp.Data\bin\Debug\net8.0\EntrenosApp.Data.runtimeconfig.json
+C:\Users\Jose M\Documents\DAW\SAN VALERO\Prática presencial 2\EntrenosApp.Data\bin\Debug\net8.0\EntrenosApp.Data.dll
+C:\Users\Jose M\Documents\DAW\SAN VALERO\Prática presencial 2\EntrenosApp.Data\bin\Debug\net8.0\EntrenosApp.Data.pdb
+C:\Users\Jose M\Documents\DAW\SAN VALERO\Prática presencial 2\EntrenosApp.Data\bin\Debug\net8.0\EntrenosApp.Models.dll
+C:\Users\Jose M\Documents\DAW\SAN VALERO\Prática presencial 2\EntrenosApp.Data\bin\Debug\net8.0\EntrenosApp.Models.pdb
+C:\Users\Jose M\Documents\DAW\SAN VALERO\Prática presencial 2\EntrenosApp.Data\obj\Debug\net8.0\EntrenosApp.Data.csproj.AssemblyReference.cache
+C:\Users\Jose M\Documents\DAW\SAN VALERO\Prática presencial 2\EntrenosApp.Data\obj\Debug\net8.0\EntrenosApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jose M\Documents\DAW\SAN VALERO\Prática presencial 2\EntrenosApp.Data\obj\Debug\net8.0\EntrenosApp.Data.AssemblyInfoInputs.cache
+C:\Users\Jose M\Documents\DAW\SAN VALERO\Prática presencial 2\EntrenosApp.Data\obj\Debug\net8.0\EntrenosApp.Data.AssemblyInfo.cs
+C:\Users\Jose M\Documents\DAW\SAN VALERO\Prática presencial 2\EntrenosApp.Data\obj\Debug\net8.0\EntrenosApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\Jose M\Documents\DAW\SAN VALERO\Prática presencial 2\EntrenosApp.Data\obj\Debug\net8.0\Entrenos.8DCA70C8.Up2Date
+C:\Users\Jose M\Documents\DAW\SAN VALERO\Prática presencial 2\EntrenosApp.Data\obj\Debug\net8.0\EntrenosApp.Data.dll
+C:\Users\Jose M\Documents\DAW\SAN VALERO\Prática presencial 2\EntrenosApp.Data\obj\Debug\net8.0\refint\EntrenosApp.Data.dll
+C:\Users\Jose M\Documents\DAW\SAN VALERO\Prática presencial 2\EntrenosApp.Data\obj\Debug\net8.0\EntrenosApp.Data.pdb
+C:\Users\Jose M\Documents\DAW\SAN VALERO\Prática presencial 2\EntrenosApp.Data\obj\Debug\net8.0\EntrenosApp.Data.genruntimeconfig.cache
+C:\Users\Jose M\Documents\DAW\SAN VALERO\Prática presencial 2\EntrenosApp.Data\obj\Debug\net8.0\ref\EntrenosApp.Data.dll

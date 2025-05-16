@@ -1,0 +1,6 @@
+@EntrenosApp.API_HostAddress = http://localhost:5063
+
+GET {{EntrenosApp.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
