@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EntrenosApp.Models")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee4ad33e65401416db2af8e4b838986c22255305")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02756a492ac162b91f971cdc1a8e8c2271947018")]
 [assembly: System.Reflection.AssemblyProductAttribute("EntrenosApp.Models")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EntrenosApp.Models")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
