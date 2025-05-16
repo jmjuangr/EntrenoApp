@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EntrenosApp.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02756a492ac162b91f971cdc1a8e8c2271947018")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+760fa2f0cbebc43704f51f9fb51b601c1471e712")]
 [assembly: System.Reflection.AssemblyProductAttribute("EntrenosApp.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EntrenosApp.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
