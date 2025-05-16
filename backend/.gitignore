@@ -1,3 +1,4 @@
+# --- .NET ---
 **/bin/
 **/obj/
 *.user
@@ -5,4 +6,28 @@
 *.pdb
 *.exe
 *.dll
+*.log
+
+# --- Visual Studio ---
 .vscode/
+.vs/
+
+# --- Docker ---
+*.db
+*.mdf
+*.ldf
+*.bak
+docker-compose.override.yml
+
+# --- Sistema ---
+Thumbs.db
+*.DS_Store
+
+# --- Entornos temporales ---
+.env
+.env.*
+secrets.json
+
+# --- Otros ---
+*.nupkg
+*.snupkg
