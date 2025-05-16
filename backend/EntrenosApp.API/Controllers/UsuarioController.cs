@@ -1,11 +1,13 @@
 using Microsoft.AspNetCore.Mvc;
 using EntrenosApp.Business.Services;
 using EntrenosApp.Models.DTOs;
+using Microsoft.AspNetCore.Authorization;
 
 namespace EntrenosApp.API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize(Roles = "Admin")]
     public class UsuarioController : ControllerBase
     {
         private readonly UsuarioService _service;

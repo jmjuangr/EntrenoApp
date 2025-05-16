@@ -1,11 +1,13 @@
 using Microsoft.AspNetCore.Mvc;
 using EntrenosApp.Business.Services;
 using EntrenosApp.Models.DTOs;
+using Microsoft.AspNetCore.Authorization;
 
 namespace EntrenosApp.API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
+    [Authorize]
     public class EntrenamientoController : ControllerBase
     {
         private readonly EntrenamientoService _service;
