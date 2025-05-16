@@ -9,5 +9,7 @@ namespace EntrenosApp.Data
 
         public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Entrenamiento> Entrenamientos { get; set; }
+
+        public DbSet<CategoriaEntrenamiento> CategoriaEntramientos { get; set; }
     }
 }

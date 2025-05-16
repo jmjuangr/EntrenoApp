@@ -15,3 +15,4 @@ C:\Users\Jose M\Documents\DAW\SAN VALERO\Prática presencial 2\EntrenosApp.Data\
 C:\Users\Jose M\Documents\DAW\SAN VALERO\Prática presencial 2\EntrenosApp.Data\obj\Debug\net8.0\EntrenosApp.Data.pdb
 C:\Users\Jose M\Documents\DAW\SAN VALERO\Prática presencial 2\EntrenosApp.Data\obj\Debug\net8.0\EntrenosApp.Data.genruntimeconfig.cache
 C:\Users\Jose M\Documents\DAW\SAN VALERO\Prática presencial 2\EntrenosApp.Data\obj\Debug\net8.0\ref\EntrenosApp.Data.dll
+C:\Users\Jose M\Documents\DAW\SAN VALERO\Prática presencial 2\EntrenosApp.Data\obj\Debug\net8.0\EntrenosApp.Data.sourcelink.json

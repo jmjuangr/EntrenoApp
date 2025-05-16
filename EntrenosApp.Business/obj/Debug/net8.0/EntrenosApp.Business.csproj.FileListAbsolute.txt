@@ -15,3 +15,4 @@ C:\Users\Jose M\Documents\DAW\SAN VALERO\Prática presencial 2\EntrenosApp.Busin
 C:\Users\Jose M\Documents\DAW\SAN VALERO\Prática presencial 2\EntrenosApp.Business\obj\Debug\net8.0\refint\EntrenosApp.Business.dll
 C:\Users\Jose M\Documents\DAW\SAN VALERO\Prática presencial 2\EntrenosApp.Business\obj\Debug\net8.0\EntrenosApp.Business.pdb
 C:\Users\Jose M\Documents\DAW\SAN VALERO\Prática presencial 2\EntrenosApp.Business\obj\Debug\net8.0\ref\EntrenosApp.Business.dll
+C:\Users\Jose M\Documents\DAW\SAN VALERO\Prática presencial 2\EntrenosApp.Business\obj\Debug\net8.0\EntrenosApp.Business.sourcelink.json

@@ -9,3 +9,4 @@ C:\Users\Jose M\Documents\DAW\SAN VALERO\Prática presencial 2\EntrenosApp.Model
 C:\Users\Jose M\Documents\DAW\SAN VALERO\Prática presencial 2\EntrenosApp.Models\obj\Debug\net8.0\refint\EntrenosApp.Models.dll
 C:\Users\Jose M\Documents\DAW\SAN VALERO\Prática presencial 2\EntrenosApp.Models\obj\Debug\net8.0\EntrenosApp.Models.pdb
 C:\Users\Jose M\Documents\DAW\SAN VALERO\Prática presencial 2\EntrenosApp.Models\obj\Debug\net8.0\ref\EntrenosApp.Models.dll
+C:\Users\Jose M\Documents\DAW\SAN VALERO\Prática presencial 2\EntrenosApp.Models\obj\Debug\net8.0\EntrenosApp.Models.sourcelink.json

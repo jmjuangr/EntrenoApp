@@ -7,7 +7,9 @@ namespace EntrenosApp.Models
         public int Edad { get; set; }
         public string Genero { get; set; } // "M", "F", "Otro"
         public string Nivel { get; set; }  // "principiante", "intermedio", "avanzado"
-        public bool Activo { get; set; }
+        public bool Admin { get; set; }
+        public string Pass { get; set; }
+
 
         public ICollection<Entrenamiento> Entrenamientos { get; set; }
     }
