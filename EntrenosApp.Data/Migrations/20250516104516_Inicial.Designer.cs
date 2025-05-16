@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EntrenosApp.Data.Migrations
 {
     [DbContext(typeof(EntrenosDbContext))]
-    [Migration("20250516091615_AddPassToUsuario")]
-    partial class AddPassToUsuario
+    [Migration("20250516104516_Inicial")]
+    partial class Inicial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -43,7 +43,7 @@ namespace EntrenosApp.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("CategoriaEntramientos");
+                    b.ToTable("CategoriaEntrenamientos");
                 });
 
             modelBuilder.Entity("EntrenosApp.Models.Entrenamiento", b =>

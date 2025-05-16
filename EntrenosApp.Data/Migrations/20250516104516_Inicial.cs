@@ -12,7 +12,7 @@ namespace EntrenosApp.Data.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "CategoriaEntramientos",
+                name: "CategoriaEntrenamientos",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -22,7 +22,7 @@ namespace EntrenosApp.Data.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_CategoriaEntramientos", x => x.Id);
+                    table.PrimaryKey("PK_CategoriaEntrenamientos", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -35,7 +35,8 @@ namespace EntrenosApp.Data.Migrations
                     Edad = table.Column<int>(type: "int", nullable: false),
                     Genero = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Nivel = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Admin = table.Column<bool>(type: "bit", nullable: false)
+                    Admin = table.Column<bool>(type: "bit", nullable: false),
+                    Pass = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -61,9 +62,9 @@ namespace EntrenosApp.Data.Migrations
                 {
                     table.PrimaryKey("PK_Entrenamientos", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Entrenamientos_CategoriaEntramientos_CategoriaEntrenamientoId",
+                        name: "FK_Entrenamientos_CategoriaEntrenamientos_CategoriaEntrenamientoId",
                         column: x => x.CategoriaEntrenamientoId,
-                        principalTable: "CategoriaEntramientos",
+                        principalTable: "CategoriaEntrenamientos",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
@@ -92,7 +93,7 @@ namespace EntrenosApp.Data.Migrations
                 name: "Entrenamientos");
 
             migrationBuilder.DropTable(
-                name: "CategoriaEntramientos");
+                name: "CategoriaEntrenamientos");
 
             migrationBuilder.DropTable(
                 name: "Usuarios");

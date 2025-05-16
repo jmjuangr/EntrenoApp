@@ -21,6 +21,12 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<UsuarioRepository>();
 builder.Services.AddScoped<UsuarioService>();
+builder.Services.AddScoped<CategoriaEntrenamientoRepository>();
+builder.Services.AddScoped<CategoriaEntrenamientoService>();
+builder.Services.AddScoped<EntrenamientoRepository>();
+builder.Services.AddScoped<EntrenamientoService>();
+
+
 
 
 var app = builder.Build();

@@ -40,7 +40,7 @@ namespace EntrenosApp.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("CategoriaEntramientos");
+                    b.ToTable("CategoriaEntrenamientos");
                 });
 
             modelBuilder.Entity("EntrenosApp.Models.Entrenamiento", b =>
