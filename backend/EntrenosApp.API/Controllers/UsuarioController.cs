@@ -7,7 +7,6 @@ namespace EntrenosApp.API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    [Authorize(Roles = "Admin")]
     public class UsuarioController : ControllerBase
     {
         private readonly UsuarioService _service;
@@ -17,7 +16,9 @@ namespace EntrenosApp.API.Controllers
             _service = service;
         }
 
+
         [HttpGet]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<IEnumerable<UsuarioDTO>>> GetAll()
         {
             var usuarios = await _service.GetAllAsync();
@@ -25,6 +26,7 @@ namespace EntrenosApp.API.Controllers
         }
 
         [HttpGet("{id}")]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<UsuarioDTO>> GetById(int id)
         {
             var usuario = await _service.GetByIdAsync(id);
@@ -32,7 +34,9 @@ namespace EntrenosApp.API.Controllers
             return Ok(usuario);
         }
 
+
         [HttpPost]
+        [AllowAnonymous]
         public async Task<ActionResult<UsuarioDTO>> Create(UsuarioCreateDTO dto)
         {
             var creado = await _service.AddAsync(dto);
@@ -40,6 +44,7 @@ namespace EntrenosApp.API.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> Delete(int id)
         {
             var ok = await _service.DeleteAsync(id);
