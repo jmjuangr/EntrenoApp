@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: entrenos-backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: entrenos-backend
+  template:
+    metadata:
+      labels:
+        app: entrenos-backend
+    spec:
+      containers:
+        - name: backend
+          image: jmjuan/backend-api:latest
+          ports:
+            - containerPort: 8080
+          env:
+            - name: ConnectionStrings__DefaultConnection
+              value: "Server=entrenosdb.c3u8m6w2k3u2.us-east-1.rds.amazonaws.com;Database=EntrenosDb;User Id=sa;Password=123Secreto456_;TrustServerCertificate=true;Encrypt=true"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: entrenos-backend-service
+spec:
+  type: LoadBalancer
+  selector:
+    app: entrenos-backend
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8080

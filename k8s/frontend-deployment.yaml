@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: entrenos-frontend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: entrenos-frontend
+  template:
+    metadata:
+      labels:
+        app: entrenos-frontend
+    spec:
+      containers:
+        - name: frontend
+          image: jmjuan/frontend-app:latest
+          ports:
+            - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: entrenos-frontend-service
+spec:
+  type: LoadBalancer
+  selector:
+    app: entrenos-frontend
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
