@@ -7,7 +7,7 @@ namespace EntrenosApp.API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    [Authorize(Roles = "Admin")]
+    [Authorize]
     public class CategoriaEntrenamientoController : ControllerBase
     {
         private readonly CategoriaEntrenamientoService _service;

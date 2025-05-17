@@ -23,6 +23,7 @@ namespace EntrenosApp.Business.Services
                 UsuarioNombre = e.Usuario?.Nombre ?? "",
                 CategoriaEntrenamientoId = e.CategoriaEntrenamientoId,
                 CategoriaNombre = e.CategoriaEntrenamiento?.Tipo ?? "",
+                ColorVisual = e.CategoriaEntrenamiento?.ColorVisual ?? "#cccccc",
                 Descripcion = e.Descripcion,
                 Duracion = e.Duracion,
                 Fecha = e.Fecha,
@@ -44,6 +45,7 @@ namespace EntrenosApp.Business.Services
                 UsuarioNombre = e.Usuario?.Nombre ?? "",
                 CategoriaEntrenamientoId = e.CategoriaEntrenamientoId,
                 CategoriaNombre = e.CategoriaEntrenamiento?.Tipo ?? "",
+                ColorVisual = e.CategoriaEntrenamiento?.ColorVisual ?? "#cccccc",
                 Descripcion = e.Descripcion,
                 Duracion = e.Duracion,
                 Fecha = e.Fecha,
@@ -80,8 +82,9 @@ namespace EntrenosApp.Business.Services
                 Intensidad = creado.Intensidad,
                 Completado = creado.Completado,
                 PuntosExperencia = creado.PuntosExperencia,
-                UsuarioNombre = "", // opcional cargar después
-                CategoriaNombre = ""
+                UsuarioNombre = creado.Usuario?.Nombre ?? "",
+                CategoriaNombre = creado.CategoriaEntrenamiento?.Tipo ?? "",
+                ColorVisual = creado.CategoriaEntrenamiento?.ColorVisual ?? "#cccccc"
             };
         }
 
@@ -89,6 +92,7 @@ namespace EntrenosApp.Business.Services
         {
             return await _repo.DeleteAsync(id);
         }
+
         public async Task<List<EntrenamientoDTO>> GetFilteredAsync(string? intensidad, bool? completado, string? orden)
         {
             var entrenamientos = await _repo.GetAllAsync();
@@ -115,6 +119,7 @@ namespace EntrenosApp.Business.Services
                 UsuarioNombre = e.Usuario?.Nombre ?? "",
                 CategoriaEntrenamientoId = e.CategoriaEntrenamientoId,
                 CategoriaNombre = e.CategoriaEntrenamiento?.Tipo ?? "",
+                ColorVisual = e.CategoriaEntrenamiento?.ColorVisual ?? "#cccccc",
                 Descripcion = e.Descripcion,
                 Duracion = e.Duracion,
                 Fecha = e.Fecha,
@@ -123,6 +128,5 @@ namespace EntrenosApp.Business.Services
                 PuntosExperencia = e.PuntosExperencia
             }).ToList();
         }
-
     }
 }
